@@ -15,7 +15,7 @@
 Ejecutar el script `veosatdb.sql`, éste generará:
 
 1. Una bbdd con el nombre veosatdb
-2. Tablas VEHICULOS y POSICIONES e insertará añgunos datos de prueba.
+2. Tablas VEHICULOS y POSICIONES e insertará algunos datos de prueba.
 3. Trigger que se activa cada vez que hay una inserción en la tabla POSICIONES, si la nueva posición tiene una velocidad superior a 10 actualiza el estado del vehículo
 
 # Microservicio con Flask-RestPlus y SQLAlchemy
