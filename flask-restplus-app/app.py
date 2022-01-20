@@ -11,7 +11,7 @@ from marshmallow import ValidationError
 
 app = Flask(__name__)
 bluePrint = Blueprint('api', __name__, url_prefix='/api')
-api = Api(bluePrint, doc='/doc', title='Flask-RestPlus Microservice - VEOSAT PRUEBA TECNICA ')
+api = Api(bluePrint, doc='/doc', title='Flask-RestPlus Microservice - VEOSAT PRUEBA TECNICA de David Martin Vergues ')
 app.register_blueprint(bluePrint)
 app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql+pymysql://{user}:{passwd}@{host}/{database}' 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
